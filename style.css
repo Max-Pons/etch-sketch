@@ -117,3 +117,33 @@ section h1 {
     font-family: Shadows Into Light;
 }
 
+#left-side,
+#right-side {
+    flex: 1;
+    height: 600px;
+    display: flex;
+}
+
+#left-side #returnContainer {
+    position: relative;
+    left: 60px;
+    top: 550px;
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: 0px 0px 900px blueviolet;
+    background-color: black;
+
+}
+
+#returnContainer button,
+button a {
+    font-family: Shadows Into Light;
+    background-color: black;
+    text-decoration: none;
+    border: 0;
+    border-radius: 4px;
+    padding-top: 2p;
+    color: #efefef;
+    font-size: 30px;
+    box-shadow: 0px 0px 900px blueviolet;
+}
